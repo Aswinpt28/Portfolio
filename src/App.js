@@ -5,7 +5,7 @@ import Header from "./Componenets/Header/Header"
 import Services from "./Componenets/Services/Services";
 import Works from "./Componenets/Projects/Works";
 import About from "./Componenets/Pages/About";
-import Portfolio from "./Componenets/Pages/Portfolio";
+import Projects from "./Componenets/Pages/Projects";
 
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<> <Header /> <Services /> <Works /> </>} />
           <Route path="/about" element={<About />} />
-          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/portfolio" element={<Projects />} />
         </Routes>
         <Footer />
       </BrowserRouter>
